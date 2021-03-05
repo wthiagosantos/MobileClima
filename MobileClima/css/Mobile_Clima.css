@@ -1,0 +1,191 @@
+*
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body
+{
+    background-color: #333;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://source.unsplash.com/1600x900/?nature);
+    display: flex;
+    background-position: center;
+    background-repeat: unset;
+    background-size: 100%;
+}
+
+.menu
+{
+    width: 100%;
+}
+
+fieldset
+{
+    width: 300px;
+    border-left: 1px solid white;
+    border-right: 1x solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 25px;
+    background-color: #000000e1;
+    color: white;
+}
+
+button
+{
+    background-color: #e0dcdc;
+    border-bottom: 3px solid #e0dcdc;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 0;
+    border-radius: 30%;
+    outline: none;
+    width: 40px;
+    height: 30px;
+    padding-top: 8px;
+    padding-bottom: 21px;
+}
+
+input.search-bar
+{
+    border: none;
+    width: 75%;
+    margin-bottom: 12px;
+    margin-right: 0;
+    border-radius: 8px;
+    outline: none;
+    padding: 0.1em 0.4em;
+    font-size: 120%;
+    font-family: inherit;
+}
+
+button:hover
+{
+    background-color: whitesmoke;
+    border-bottom: 3px solid #c2bcbc;
+    cursor: pointer;
+}
+
+label.temp, label.mtemp, label.ttemp, label.ntemp
+{
+    font-size: 25px;
+}
+
+.flex
+{
+    align-items: center;
+}
+
+.description
+{
+    align-items: center;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-top: 0;
+}
+
+legend
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 23px;
+    background: black;
+    border-radius: 10px; 
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 0;
+    padding-bottom: 0; 
+}
+
+legend#lcidade
+{
+    font-size: 28px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+fieldset, .periodo
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.periodo
+{
+    display: flex;
+    width: 350px;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+fieldset#fPeriodo
+{
+    background-color: rgba(83, 235, 220, 0.66);
+    border-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+}
+
+fieldset#inserirCidade
+{
+    width: 350px;
+    border-left: 1px solid white;
+    border-right: 1x solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 25px;
+    background-color: #000000f1;
+    color: white;
+    font-weight: bold;  
+    padding-left: 12px;
+}
+
+table
+{
+    font-size: 18px;
+    text-align: left;
+}
+
+td
+{
+    padding: 5px;
+}
+
+td#umidade, td#precipitacao, td#vento, td#poluicao
+{
+    padding-left: 28px;
+}
+
+td.humidity, td.wind, td.precipitation
+{
+    padding-left: 48px;
+}
+
+.city
+{
+    visibility: hidden;
+}
+
+.dados
+{
+    font-size: 18px;
+    color: yellow;
+}
+
+.carregamento.loading
+{
+    visibility: hidden;
+  }
+  
+.carregamento.loading:after
+{
+    visibility: visible;
+}
